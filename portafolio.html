@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/1887a2061c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&family=Oswald:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Portafolio Web Francisco Inostroza</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Fran CV</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header id="hero-section">
+      <div class="container text-center text-white img-fluid">
+        <h1>Francisco</h1>
+        <hr class="hero-line mx-auto opacity-50" />
+        <h1>Inostroza</h1>
+      </div>
+    </header>
+
+    <section id="sobre-mi" class="pt-5 container d-none d-md-block">
+      <div>
+        <h4 class="text-center fw-bold">
+          La mixtura de saber mas de una cosa, esta mezcla de músico, con informatico, con historiador me deja en un hibrido medio extraño, poco común entre mis pares. Son ya 12 años de experiencia en Continuidad TI, y 2 ya liderando un equipo de soporte y continuidad, donde he aprendido bastante. Acá un poco de lo que he aprendido.
+        </h4>
+        <hr class="opacity-100 w-25 mx-auto" />
+      </div>
+      <div class="row pt-3">
+        <div class="col-6">
+         Partimos con algunas cosas en python, como desarrollador backend/backoffice; también con esto de las metodologías ágiles, pero todo confluye en lo que he hecho ahora. Es decir, un semi senior "con habilidades blandas"
+        </div>
+        <div class="col-6">
+         El camino por acá con JS, bootstrap, Flex, etc, esta siendo bonito, innovador y necesario. Ahi van algunas cosas en las que he trabajado.
+        </div>
+      </div>
+    </section>
+
+    <section id="experiencia" class="py-5 container text-center">
+      <div>
+        <h1 class="fw-bold text-uppercase">Mi experiencia</h1>
+        <hr class="opacity-100 mx-auto w-25" />
+      </div>
+      <div class="row pt-3">
+        <article class="col-12 col-sm-6">
+          <i
+            class= "fa-brands fa-bootstrap"
+            style="--fa-animation-duration: 2s; --fa-fade-opacity: 0.3"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Node JS"
+          ></i>
+          <h4 class="fw-bold mt-3 texto-exp">Bootstrap</h4>
+        </article>
+        <article class="col-12 col-sm-6">
+          <i
+          <h4 class=fa-brands fa-js> Javascript</h4>
+          </i>
+          <h4 class="fw-bold mt-3 texto-exp">JS</h4>
+        </article>
+      </div>
+    </section>
+
+    <section id="trabajos" class="py-5">
+      <div>
+        <h1 class="fw-bold text-center text-uppercase mt-2 text-white">
+          mis últimos trabajos
+        </h1>
+        <hr class="bg-white opacity-100 mx-auto w-25" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 my-3">
+            <div
+              class="card border-0"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <img
+                src="assets/img/meet_coffee.png"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Meet&coffe</h4>
+                <p class="card-text fw-light">
+                  Felis tincidunt vel risus lacus posuere dignissim habitasse
+                  sapien, scelerisque semper fusce turpis cubilia cursus a
+                  taciti, ligula in at sociis accumsan donec ridiculus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card border-0">
+              <img
+                src="assets/img/iguana_page.png"
+                class="card-img-top"
+                alt=""
+              />
+              <div class="card-body">
+                <h4 class="card-title">Meet&coffe</h4>
+                <p class="card-text fw-light">
+                  Felis tincidunt vel risus lacus posuere dignissim habitasse
+                  sapien, scelerisque semper fusce turpis cubilia cursus a
+                  taciti, ligula in at sociis accumsan donec ridiculus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card border-0">
+              <img src="assets/img/suricata.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Meet&coffe</h4>
+                <p class="card-text fw-light">
+                  Felis tincidunt vel risus lacus posuere dignissim habitasse
+                  sapien, scelerisque semper fusce turpis cubilia cursus a
+                  taciti, ligula in at sociis accumsan donec ridiculus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card border-0">
+              <img src="assets/img/cuppon.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Meet&coffe</h4>
+                <p class="card-text fw-light">
+                  Felis tincidunt vel risus lacus posuere dignissim habitasse
+                  sapien, scelerisque semper fusce turpis cubilia cursus a
+                  taciti, ligula in at sociis accumsan donec ridiculus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card border-0">
+              <img src="assets/img/ricomida.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Meet&coffe</h4>
+                <p class="card-text fw-light">
+                  Felis tincidunt vel risus lacus posuere dignissim habitasse
+                  sapien, scelerisque semper fusce turpis cubilia cursus a
+                  taciti, ligula in at sociis accumsan donec ridiculus.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 my-3">
+            <div class="card border-0">
+              <img src="assets/img/dmark.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <h4 class="card-title">Meet&coffe</h4>
+                <p class="card-text fw-light">
+                  Felis tincidunt vel risus lacus posuere dignissim habitasse
+                  sapien, scelerisque semper fusce turpis cubilia cursus a
+                  taciti, ligula in at sociis accumsan donec ridiculus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="container text-center py-5">
+      <div class="mb-5">
+        <h1 class="fw-bold text-uppercase">Contacto</h1>
+        <hr class="opacity-100 mx-auto w-25" />
+      </div>
+      <div>
+        <p>Quieres conocer mas de mi</p>
+        <a href="https://andres686727.typeform.com/to/HAiHfZCD" target="_blank">
+          <button class="btn text-white">Comenzar</button>
+        </a>
+      </div>
+    </section>
+    <a
+      class="move-top"
+      class="fa-brands fa-node fa-10x"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      title="Ir al inicio"
+      href="#"
+      >↑</a
+    >
+    <footer id="footer" class="text-center text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <h1 class="fw-bold text-uppercase">Francisco</h1>
+          </div>
+          <div class="col-12 col-sm-6">
+              <a href="https://www.linkedin.com/in/francisco-inostroza-donoso-006454101?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin fa-2x" style="color: rgb(236, 10, 10), 102, 102);"></i></a>
+              <a href="https://github.com/baldrvik04"><i class="fa-brands fa-github fa-2x" style="color: #dd0d0d;"></i></a>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ventana Modal</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Desafío Meet and cofee</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

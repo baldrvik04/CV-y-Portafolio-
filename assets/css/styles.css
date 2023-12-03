@@ -1,0 +1,166 @@
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgb(34, 8, 90);
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: "Oswald";
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.move-top {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  display: none;
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 600;
+  background: #4c5c68;
+}
+.move-top:hover {
+  transition-property: background-color;
+  transition-duration: 0.6s;
+  background-color: #c5c3c6;
+  color: #1985a1;
+}
+/* Hero Section */
+
+#hero-section {
+  background-image: url("../img/portafolio.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+@media only screen and (max-width: 480px) {
+  #hero-section {
+    background-image: url("../img/portfolio.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+  }
+}
+#hero-section div {
+  position: absolute;
+  bottom: 2.813rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.hero-line {
+  width: 21.563rem;
+}
+
+#hero-section h1 {
+  font-family: "Oswald";
+  font-size: 4.5rem;
+}
+#hero-section h1:first-child {
+  font-weight: 200;
+}
+#hero-section h1:last-child {
+  font-weight: 900;
+}
+
+/* Sobre mi */
+
+#sobre-mi {
+  color: #363a3c;
+  font-family: "Open Sans";
+  line-height: 3;
+}
+
+/* Mi experiencia */
+
+#experiencia div h1 {
+  font-family: "Oswald";
+  font-size: 52px;
+  color: #46494c;
+}
+
+#experiencia i {
+  color: #4c5c68;
+}
+
+#experiencia div:last-child article h4:first-child {
+  font-family: "Oswald";
+  color: #46494c;
+}
+
+#experiencia div:last-child article h4:last-child {
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: #46494c;
+}
+
+.texto-exp {
+  color: #46494c;
+}
+
+/* Mis ultimos trabajos */
+
+#trabajos {
+  background-color: #1985a1;
+  font-family: "Oswald";
+}
+
+#trabajos h1 {
+  font-size: 52px;
+}
+#trabajos h4 {
+  font-size: 23px;
+  color: #46494c;
+}
+/* Contacto */
+
+#contacto h1 {
+  font-family: "Oswald";
+  font-size: 52px;
+  color: #4c5c68;
+}
+
+#contacto button {
+  background-color: #1985a1;
+}
+
+#contacto button:hover {
+  background-color: #4c5c68;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #1985a1;
+}
+
+#footer h1 {
+  font-family: "Oswald";
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer i:hover {
+  transition-property: color;
+  transition-duration: 0.5s;
+  color: #4c5c68;
+}

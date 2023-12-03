@@ -1,0 +1,49 @@
+nav {
+    background-color: rgb(7, 10, 65);
+}
+section img {
+    width: 20%;
+    margin-left: 40%;
+}
+body {
+    background-image: url(../images/fondo_pantalla.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'DM Sans', sans-serif;
+   
+}
+.centrotexto {
+    text-align: center;
+    padding-left: 10%;
+   padding-right: 10%;
+}
+.row p{
+    text-align: justify;
+}
+footer {
+    background-color: rgb(7, 10, 65);
+    text-align: center;
+    color:silver
+}
+#cards .image-top {
+height: 250px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.titulo {
+    text-align: center;
+    margin
+}
+.forks {
+    text-align: center;
+}
+.forkgrande {
+    text-align: center; 
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+}
