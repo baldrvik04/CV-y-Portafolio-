@@ -1,4 +1,6 @@
-mi cv y portafolio
+#mi cv y portafolio
+
+
 https://github.com/baldrvik04/CV-y-Portafolio-
 
 fork 1 : https://github.com/baldrvik04/CV/
