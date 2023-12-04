@@ -3,6 +3,10 @@
 
 https://github.com/baldrvik04/CV-y-Portafolio-
 
+#github pages
+
+https://baldrvik04.github.io/CV-y-Portafolio-/
+
 ___________________________________________________________
 
 fork 1 : https://github.com/baldrvik04/CV/
