@@ -3,6 +3,8 @@
 
 https://github.com/baldrvik04/CV-y-Portafolio-
 
+___________________________________________________________
+
 fork 1 : https://github.com/baldrvik04/CV/
     #Corresponde a Javiera Candia
 ___________________________________________________________
